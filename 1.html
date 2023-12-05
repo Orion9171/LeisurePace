@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeisurePace</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Common styles for all screen sizes */
+    .box {
+      position: absolute;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      border: 1px rgba(0, 0, 0, 0.2) solid;
+    }
+
+    /* Media queries for responsiveness */
+    @media screen and (min-width: 576px) {
+      .box {
+        width: 358px;
+        height: 61px;
+      }
+
+      .Leisurepace {
+        font-size: 30px;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      .box {
+        width: 458px;
+        height: 81px;
+      }
+
+
+    }
+
+    /* Centering styles */
+
+    .image-style {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 200px; /* Adjust the width to resize the image */
+      height: 220px; /* Adjust the height to resize the image */
+      border-radius: 50px;
+    }
+    .center-absolute {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body class="container-fluid p-0 m-0" style="background-color: #f5e4bf">
+  <div class="Rectangle34 box" style="left: -1810px; top: 205px; background: rgb(203, 161, 161);"></div>
+  <div class="container center-absolute">
+    <img class="image-style center-absolute" src="C:\Users\tiffany\Desktop\專題網頁\圖片庫\1.png" />
+    <div class="Leisurepace center-absolute" style="color: #3287b6; font-size: 50px; font-family: Inter; font-weight: 400; word-wrap: break-word;">
+      LeisurePacey
+    </div>
+  </div>
+
+  <!-- JavaScript libraries -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
