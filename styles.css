@@ -1,0 +1,377 @@
+/* 共用樣式 */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* logo 的樣式 */
+.page1 {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #ccefea,
+    #ffc17c,
+    #ffd57b
+    
+  ); /* 漸層背景色 */
+}
+
+/* start 的樣式 */
+.page2 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #d8eeea,
+    #fbdbb7,
+    #ffe9b9
+  ); /* 漸層背景色 */
+  background-size: cover;
+  color: #fff; /* 設定文字顏色 */
+}
+
+/* log in 的樣式 */
+.page3 {
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("image/bg1.png"); /* 設定背景圖片 */
+}
+
+/* register 的樣式 */
+.page4 {
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("image/bg1.png"); /* 設定背景圖片 */
+}
+
+/* forget 的樣式 */
+.page5 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5e4bf;
+  background-image: url("page3-background.jpg"); /* 設定背景圖片 */
+  background-size: cover;
+  color: #fff; /* 設定文字顏色 */
+}
+
+/* Fill in 1 的樣式 */
+.page6 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5e4bf;
+  background-image: url("page3-background.jpg"); /* 設定背景圖片 */
+  background-size: cover;
+  color: #fff; /* 設定文字顏色 */
+}
+
+/* Fill in 2 的樣式 */
+.page7 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5e4bf;
+  background-image: url("page3-background.jpg"); /* 設定背景圖片 */
+  background-size: cover;
+  color: #fff; /* 設定文字顏色 */
+}
+
+/* index 的樣式 */
+.page8 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5e4bf;
+  background-image: url("page3-background.jpg"); /* 設定背景圖片 */
+  background-size: cover;
+  color: #fff; /* 設定文字顏色 */
+}
+
+/* logo 的樣式 */
+.animation-container {
+  text-align: center;
+  opacity: 0;
+}
+
+.logo {
+  width: 180px; /* 調整 logo 的大小 */
+  height: auto;
+  margin-bottom: 20px; /* 調整 logo 和文字之間的距離 */
+}
+
+.animated-text {
+  font-size: 78px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.logo-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* 可根據需要進行調整 */
+  gap: 20px; /* 設定 logo 和文字之間的水平間距 */
+}
+
+/* start 的樣式 */
+.logo-container {
+  text-align: center;
+}
+
+.welcome-message {
+  font-size: 32px;
+  margin-top: 20px;
+  font-family: ABeeZee;
+  font-weight: 400;
+  color: black;
+}
+
+.description {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-family: ABeeZee;
+  font-weight: 400;
+}
+
+.buttons-container {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.login-button {
+  background-color: #f6d58a;
+  color: white;
+}
+
+.register-button {
+  background-color: #f4900c;
+  color: white;
+}
+
+/*login*/
+/*返回icon*/
+.back-icon {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  cursor: pointer;
+}
+
+.back-icon img {
+  width: 50px; /* 設定返回圖示的寬度 */
+  height: 50px; /* 設定返回圖示的高度 */
+}
+
+/* Full-width inputs */
+.input-field {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Google 登入 buttons */
+.button1 {
+  background-color: #bc0808;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 100%;
+  border-radius:  50px;;
+
+}
+
+/* Facebook 登入 buttons */
+.button2 {
+  background-color: rgb(15, 109, 211);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius:  50px;;
+}
+
+/* Apple 登入 buttons */
+.button3 {
+  background-color: #0d0e0d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+    border-radius:  50px;;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+/*register*/
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/*返回icon*/
+.back-icon {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  cursor: pointer;
+}
+
+.back-icon img {
+  width: 50px; /* 設定返回圖示的寬度 */
+  height: 50px; /* 設定返回圖示的高度 */
+}
